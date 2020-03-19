@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 2</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="form">
+	<span class="reg">Регистрация</span>
+	<div class="rectangle1">
+<form action="#" autocomplete="on" enctype="multipart/form-data">
+<p class="email">E-mail</p>
+<input  class="emailin"  type="email" placeholder="example@site.domain" required pattern="\S+@[a-z]+.[a-z]+"autofocus>
+<p class="pass">Пароль</p>
+<input class="passin" type="password" maxlenght="16" placeholder="password" required>
+<p class="pass2">Потвердите пароль</p>
+<input type="password"class="pass2in" placeholder="password" required">
+<p class="fio">ФИО</p>
+<input class="fioin" placeholder="Игорев Игорь Игоревич" required pattern="[A-Z]{3}">
+<p class="age">Возраст</p>
+<input type="number"class="agein" placeholder="18" required pattern="[1-9]">
+	</div>
+	<div class="rectangle2">
+	<input type="submit"class="button" value="Отправить">
+	<input type="reset" class="button2" value="Отмена">
+	</div>
+	</form>
+	</div>
+</body>
+</html>

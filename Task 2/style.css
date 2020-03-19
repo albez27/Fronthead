@@ -1,0 +1,232 @@
+.form
+{
+display: flex;
+flex-direction: column;
+padding: 20px;
+position: relative;
+width: 400px;
+height: 448px;
+margin: 15em 45em;
+background: #9C9C9C;
+border: 2px solid #626262;
+box-sizing: border-box;
+border-radius: 3px;
+}
+.rectangle1
+{
+    width: 395px;
+    height: 1px;
+ position: absolute;
+left: 0px;
+right: -20px;
+top: 78px;
+bottom: 78px;
+background: #C4C4C4;
+}
+.rectangle2
+{
+    width: 395px;
+    height: 1px;
+ position: absolute;
+left: 0px;
+right: -20px;
+bottom: 78px;
+background: #C4C4C4;
+}
+.reg
+{position: static;
+width: 360px;
+height: 38px;
+left: 20px;
+top: 20px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+}
+.button {
+  display: inline-block;
+  background: #616161;
+  color: #CCCCCC;
+position: absolute;
+width: 95px;
+height: 32px;
+left: 20px;
+top: 25px;
+  padding: 8px;
+  border: 1px solid #616161;
+  box-sizing: border-box;
+  border-radius: 3px;
+  text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+  cursor: pointer;
+}
+.button2 {
+  display: inline-block;
+  background: #CCCCCC;
+  color: #616161;
+position: absolute;
+width: 74px;
+height: 32px;
+right: 20px;
+top: 25px;
+  padding: 8px;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 3px;
+  text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+  cursor: pointer;
+}
+.email
+{
+    position: absolute;
+height: 16px;
+left: 18px;
+right: 0px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+}
+.emailin
+{
+position: absolute;
+width: 360px;
+height: 28px;
+left: 18px;
+right: 0px;
+top: 34px;
+
+background: #FFFFFF;
+border: 1px solid #9C9C9C;
+box-sizing: border-box;
+border-radius: 3px; 
+}
+.pass
+{
+    position: absolute;
+height: 16px;
+left: 18px;
+right: 0px;
+top: 70px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+}
+.passin
+{
+position: absolute;
+width: 175px;
+height: 28px;
+left: 18px;
+right: 0px;
+top: 104px;
+
+background: #FFFFFF;
+border: 1px solid #9C9C9C;
+box-sizing: border-box;
+border-radius: 3px;
+}
+input::-webkit-input-placeholder
+{
+    font-family:Roboto;
+    opacity: 0.5;
+    padding: 0 10px;
+}
+.pass2
+{
+    position: absolute;
+height: 16px;
+right: 60px;
+top: 70px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+}
+.pass2in
+{
+position: absolute;
+width: 175px;
+height: 28px;
+right: 17px;
+top: 104px;
+
+background: #FFFFFF;
+border: 1px solid #9C9C9C;
+box-sizing: border-box;
+border-radius: 3px;
+}
+.fio
+{
+    position: absolute;
+height: 16px;
+left:18px;
+top: 140px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+}
+.fioin
+{
+    position: absolute;
+width: 360px;
+height: 28px;
+left: 18px;
+top: 175px;
+
+background: #FFFFFF;
+border: 1px solid #9C9C9C;
+box-sizing: border-box;
+border-radius: 3px;
+}
+.age
+{
+    position: absolute;
+height: 16px;
+left:18px;
+top: 200px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+}
+.agein
+{
+    position: absolute;
+width: 175px;
+height: 28px;
+left: 18px;
+top: 230px;
+
+background: #FFFFFF;
+border: 1px solid #9C9C9C;
+box-sizing: border-box;
+border-radius: 3px;
+}

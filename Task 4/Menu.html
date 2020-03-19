@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ 
+<html>
+<head>
+  <title>Task 4</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+  </style>
+</head>
+<body>
+ <script>
+ var line = 5; // Quantity of lines
+    var space = 5; // Quantity of gaps in the first line
+    var star = 1; // Quantity of stars in the first line
+
+    for (var h = 0; h < line; h++) {
+        for (var wsp = 0; wsp < space; wsp++) {
+            document.write("&nbsp");
+        }
+        for (var wst = 0; wst < star/2; wst++) {
+            document.write("#");
+        }
+        space -= 1;
+        star += 2;
+        document.write("<br>");
+    }
+</script>
+ 
+</body>
+</html>
